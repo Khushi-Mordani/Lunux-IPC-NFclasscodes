@@ -1,0 +1,5 @@
+memmove is reliable,generates guaranteed results,slow in action
+memcpy is unreliable, does not generate guaranteed results,faster in action
+In case of source and destination overlapping,memmove provides guaranteed results.
+The risk of overlapping is 
+
